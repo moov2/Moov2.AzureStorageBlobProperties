@@ -8,7 +8,7 @@ Below is a list of properties that can be configured. If there is a property you
 
 ### Cache Control
 
-Sets the cache control value for the blob, which will give your site [desirable performance improvements](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching#cache-control). The app setting to be added to the `Web.config` is `Orchard.Azure.Media.StorageCacheControl`. An example value is `public, max-age=31536000`.
+Sets the cache control value for the blob, which gives [desirable performance improvements](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching#cache-control). Add `Orchard.Azure.Media.StorageCacheControl` to the `appSettings` in the `Web.config` for the Orchard site. An example value is `public, max-age=31536000`.
 
 ## Release
 
